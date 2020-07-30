@@ -173,7 +173,7 @@ h2::after {
   
   #portfolio .portfolio-bg {
     box-shadow: 10px 10px 15px rgba(114, 27, 101, 0.1);
-    background-image: url("images/ps.png");
+    background-image: url("img/ps.png");
     background-size: 470px 620px;
     background-repeat: no-repeat;
     width: 100%;
