@@ -1,0 +1,247 @@
+
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+h2 {
+	color: #333;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 25px 0 50px;
+}
+h2::after {
+	content: "";
+	width: 200px;
+	position: absolute;
+	height: 3px;
+	background: #CBF3F0;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+#Testimonials .carousel {
+	width: 650px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+#Testimonials .carousel .carousel-item {
+	color: #999;
+	font-size: 14px;
+	text-align: left;
+	overflow: hidden;
+	min-height: 340px;
+}
+#Testimonials .carousel .carousel-item a {
+	color: #eb7245;
+}
+#Testimonials .carousel .img-box {
+	width: 145px;
+	height: 145px;
+	border-radius: 50%;
+}
+#Testimonials .carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+#Testimonials .carousel .testimonial {	
+	padding: 30px 0 10px;
+}
+#Testimonials .carousel .overview {	
+	text-align: left;
+	padding-bottom: 5px;
+}
+#Testimonials .carousel .overview b {
+	color: #333;
+	font-size: 15px;
+	text-transform: uppercase;
+	display: block;	
+	padding-bottom: 5px;
+}
+#Testimonials .carousel .star-rating i {
+	font-size: 18px;
+	color: #ffdc12;
+}
+#Testimonials .carousel-control-prev,#Testimonials .carousel-control-next {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #999;
+	text-shadow: none;
+	top: 400px;
+}
+#Testimonials .carousel-control-prev i,#Testimonials .carousel-control-next i {
+	font-size: 20px;
+	margin-right: 2px;
+}
+#Testimonials .carousel-control-prev {
+	left: auto;
+	right: 40px;
+}
+#Testimonials .carousel-control-next i {
+	margin-right: -2px;
+}
+#Testimonials .carousel .carousel-indicators {
+	bottom: 15px;
+}
+#Testimonials .carousel-indicators li,#Testimonials .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	margin: 1px 5px;
+	border-radius: 50%;
+}
+#Testimonials .carousel-indicators li {	
+	background: #e2e2e2;
+	border: none;
+}
+#Testimonials .carousel-indicators li.active {		
+	background: #888;		
+}
+.img-fluid{
+
+}
+
+
+
+/************************************************0*/
+
+@media (max-width: 768px) {
+    .section-2 .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .section-2 .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.section-2 .carousel-inner .carousel-item.active,
+.section-2 .carousel-inner .carousel-item-next,
+.section-2 .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .section-2 .carousel-inner .carousel-item-right.active,
+    .section-2 .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .section-2 .carousel-inner .carousel-item-left.active, 
+    .section-2 .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.section-2 .carousel-inner .carousel-item-right,
+.section-2 .carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+/***********************************************/
+
+
+
+
+/* Why sheltown */
+#portfolio {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .row_why {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  .overlay_why {
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(200, 200, 200, 0.6);*/
+  }
+  
+  #portfolio .row {
+    margin-left: 0rem;
+  }
+  
+  #portfolio .portfolio-bg {
+    box-shadow: 10px 10px 15px rgba(114, 27, 101, 0.1);
+    background-image: url("images/ps.png");
+    background-size: 470px 620px;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  
+  #portfolio .portfolio-bg img {
+    width: 100%;
+    height: 90%;
+  }
+  
+  #portfolio .portfolio-bg h1 {
+    font-weight: bold;
+    font-size: 3.5em;
+  }
+  
+  #portfolio .portfolio-cards {
+    display: inline-block;
+    padding: 35px;
+    text-align: center;
+    background-color: rgba(187, 241, 200, 0.5);
+    box-shadow: 10px 10px 15px rgba(114, 27, 101, 0.3);
+  }
+  
+  #portfolio .portfolio-cards p {
+    color: black;
+    font-weight: bold;
+  }
+  
+  #portfolio .col-sm-6 .row .card-1 {
+    background-image: url("img/portfolio/1.jpg");
+  }
+
+  /* Why SheltOwn? Section mobile and mobile-desktop view
+--------------------------------*/
+#why-sheltown {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: none;
+  }
+  
+  #why-sheltown .row {
+    margin-left: 0rem;
+  }
+  
+  #why-sheltown img {
+    width: 50px;
+    height: auto;
+  }
+  
+  #why-sheltown p {
+    color: black;
+    font-size: 12px;
+  }
+  
+  #why-sheltown .col-4 {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(187, 241, 200, 0.5);
+    box-shadow: 10px 10px 15px rgba(114, 27, 101, 0.3);
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    #why-sheltown {
+      display: block;
+    }
+    #portfolio {
+      display: none;
+    }
+  }
+  
+
