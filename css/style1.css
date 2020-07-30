@@ -203,7 +203,7 @@ h2::after {
   }
   
   #portfolio .col-sm-6 .row .card-1 {
-    background-image: url("img/portfolio/1.jpg");
+    background-image: url("./img/portfolio/1.jpg");
   }
 
   /* Why SheltOwn? Section mobile and mobile-desktop view
