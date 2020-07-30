@@ -1,0 +1,684 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+        <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'><link rel="stylesheet" href="css/style11.css">
+<link rel="stylesheet" href="css/style1.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital,wght@1,600&family=PT+Sans+Narrow:wght@700&family=Source+Sans+Pro&display=swap');
+           .search-container{
+                float:center;
+                padding:15px 0 px 15px 20px;
+                width:200px;
+           }
+
+           #search {
+    width: 357px;
+    margin: 4px auto;
+  }
+  
+  #search_text{
+    width: 297px;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    border: 0 none;
+    height: 52px;
+    margin-right: 0;
+    color: white;
+    outline: none;
+    background: #2ecab6;
+    float: left;
+    box-sizing: border-box;
+    transition: all 0.15s;
+  }
+  .btn-primary,.btn-primary:hover,.btn-primary:active,.btn-primary:visited,.btn-primary:focus{
+      
+      background-color: #2ecab6;
+      border-color: #2ecab6;
+      margin-left:140px;
+  }
+  .btn-danger,.btn-danger:hover,.btn-danger:active,.btn-danger:visited,.btn-danger:focus{
+      float: right;
+      margin-right:140px;
+      background-color: #2ecab6;
+      border-color: #2ecab6;
+  }
+  .btn-danger small {
+  background-color: yellow;
+  color: #000;
+  font-size: 10px;
+  font-weight:bold;
+  padding: 7px;
+  border-radius: 30px;
+}
+
+#services {
+  padding: 3px 0 0 0;
+}
+
+.row_service {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -10px;
+}
+
+#services .box {
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 15px rgba(255, 146, 107, 0.3);
+  background: #fff;
+}
+
+#services .box .icon {
+  float: left;
+}
+
+#services .box .icon i {
+  color: #444;
+  font-size: 64px;
+  transition: 0.5s;
+  line-height: 0;
+  margin-top: 34px;
+}
+
+#services .box .icon i:before {
+  background: linear-gradient(45deg, #ff8c00 0%, #f05d23 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#services .box h4 {
+  margin-left: 100px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+#services .box h4 a {
+  color: #444;
+}
+
+#services .box p {
+  font-size: 14px;
+  margin-left: 100px;
+  margin-bottom: 0;
+  line-height: 24px;
+}
+
+#services .box button {
+  width: 120px;
+  text-align: center;
+  background-color: #ff8c00;
+  color: white;
+  font-weight: bold;
+  margin-left: 12.5rem;
+}
+
+@media (max-width: 767px) {
+  #services .box .box {
+    margin-bottom: 20px;
+  }
+
+  #services .box .icon {
+    float: none;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  #services .box h4,
+  #services .box p {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  #services .box button {
+    width: 80px;
+    height: 30px;
+    font-size: 9px;
+    text-align: center;
+    background-color: #ff8c00;
+    color: white;
+    font-weight: bold;
+    margin-left: 120px;
+  }
+}
+.heading-background {
+  padding: 5px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+}
+h2{
+    font-family: Montserrat, sans-serif bold;
+    margin-right: 140px;
+    margin-left: 140px;
+}
+h3{
+    font-family: Montserrat, sans-serif bold;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+#logo{
+
+width: 200px;
+
+height: 200px;
+
+position: relative;
+
+margin-left: 100px;
+
+
+}
+
+.box1{
+
+width: 125%;
+
+height: 50%;
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+border-radius: 15px;
+
+}
+
+.stack-top{
+
+z-index: 9;
+margin-top:30px;
+margin-left: 100px; /* for demo purpose  */
+
+}
+#safety{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+
+        </style>
+    </head>
+    <body>
+        <div id="search">
+            <form action="" method="get"  class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div><br>
+        <div>
+        <button type="button" class="btn btn-primary btn-lg">Become Our Partner</button>
+        <button type="button" class="btn btn-danger btn-lg">Refer and Earn<small style="padding-left: 5px;">Hurry</small></button>
+         </div>   <br>
+        <!--==========================
+      Services Section
+    ============================-->
+  <section id="services">
+    <div class="container">
+      <br>
+      <h2 class="heading heading-background" style="margin-left: 1%;">Services we provide</h2>
+      <div class="row_service">
+
+        <div class="col-lg-6">
+          <a href="personal_services1.html"><img src="img/ps.png" alt="" style="width:100%; height: auto; box-shadow: 5px 10px rgba(200,200,200,0.3); margin: 10px;"></a>
+        </div>
+
+        <div class="col-lg-6">
+          <a href="rental-services.html"><img src="img/rs.png" alt="" style="width:100%; height: auto; box-shadow: 5px 10px rgba(200,200,200,0.3); margin: 10px;"></a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <br>
+  <!-- #services -->
+  <!--icons-->
+   <section id="icons">
+       <div class="container-fluid">
+           <br>
+           <div class="header">
+               <h3 class="heading heading-background" id="safety" style="text-align: center;">100% Safety</h3>
+               <h3 class="heading heading-background1" style="text-align: center;" id="safety">We Care For You</h3>
+           </div><br>
+           <div class="row" >
+               <div class="col-sm-1"></div>
+               <div class="col"><img src="img/who.png" style="width:50%;height: 70%;margin-bottom: 15px;">
+                <h5 style="padding-right: 100px;">Maintaining WHO Safety Standards</h5>
+            </div>
+               <div class="col"><img src="img/protective-gear.png" style="width: 50%;height: 70%; margin-bottom: 15px;"><br>
+                <h5 style="padding-right: 100px;">100% Protective Gear By Our Partners & Team</h5>
+            </div>
+               <div class="col"><img src="img/bactericide.png" style="width: 50%;height: 70%;margin-bottom: 15px;">
+                <h5 style="padding-right: 100px;">Frequent Disinfection Of Properties & Service Tools</h5>
+            </div>
+               <div class="col"><img src="img/checkup.png" style="width: 50%;height: 70%; margin-bottom: 15px;">
+                <h5 style="padding-right: 100px;">Regular Checkup For All Service Partners,Arogya Setu Mandatory</h5>
+            </div>
+           </div>
+       </div>
+   </section><br><br><br>
+   <section id="footmark">
+       <div class="container-fluid">
+           <br>
+           <div>
+               <h2 class="heading heading-background" style="margin-left: 110px; margin-right:140px;">Our Footmarks</h2>
+               <!--catousel-->
+               <div class="container">
+            
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="carousel slide multi-item-carousel" id="theCarousel">
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <div class="col-xs-4"><a href="#1"><img src="img/index.png"class="img-responsive" style="width:100px;height:100px"></a>
+                            <div class="carousel-content">
+                                <h5><b>Dehradun</b></h5>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="item">
+                          <div class="col-xs-4"><a href="#1"><img src="img/lucknow.jpg"class="img-responsive"style="width:100px;height:100px"></a>
+                            <div class="carousel-content">
+                                <h5><b>Lucknow</b></h5>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="item">
+                          <div class="col-xs-4"><a href="#1"><img src="img/agra.jpg" class="img-responsive"style="width:100px;height:100px"></a>
+                            <div class="carousel-content">
+                                <h5><b>Agra</b></h5>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="item">
+                          <div class="col-xs-4"><a href="#1"><img src="img/chennai.jpg" class="img-responsive"style="width:100px;height:100px"></a>
+                            <div class="carousel-content">
+                                <h5><b>Chennai</b></h5>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="item">
+                          <div class="col-xs-4"><a href="#1"><img src="img/varanasi.jpg" class="img-responsive"style="width:100px;height:100px"></a>
+                            <div class="carousel-content">
+                                <h5><b>Varanasi</b></h5>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="item">
+                          <div class="col-xs-4"><a href="#1"><img src="img/mumbai.jpg" class="img-responsive"style="width:100px;height:100px"></a>
+                            <div class="carousel-content">
+                                <h5><b>Mumbai</b></h5>
+                            </div>
+                        </div>
+                        </div>
+                        <!-- add  more items here -->
+                        <!-- Example item start:  -->
+                        
+                        <div class="item">
+                          <div class="col-xs-4"><a href="#1"><img src="img/banglore.png" class="img-responsive"style="width:100px;height:100px"></a>
+                            <div class="carousel-content">
+                                <h5><b>Bangalore</b></h5>
+                            </div>
+                        </div>
+                        
+                        </div>
+                        <div class="item">
+                            <div class="col-xs-4"><a href="#1"><img src="img/ahemdabad.jpg" class="img-responsive"style="width:100px;height:100px"></a>
+                                <div class="carousel-content">
+                                    <h5><b>Ahmedabad</b></h5>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="col-xs-4"><a href="#1"><img src="img/delhi.png" class="img-responsive"style="width:100px;height:100px"></a>
+                                <div class="carousel-content">
+                                    <h5><b>Delhi</b></h5>
+                                </div>
+                            </div>
+                          </div>
+                          
+                        <!--  Example item end -->
+                      </div>
+                      <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                      <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- partial -->
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+              <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script><script  src="js/script.js"></script>
+           </div>
+       </div>
+   </section>
+   <!--You can book-->
+   <section id="icons1">
+    <div class="container-fluid">
+        <br>
+        <div class="header">
+            <h2 class="heading heading-background" style="margin-left: 110px; margin-right:140px;">You can Book</h2>
+            
+        </div><br>
+        <div class="row" >
+            <div class="col-sm-1"></div>
+            <div class="col"><img src="img/pg.png" style="width:50%;height: 70%;margin-bottom: 15px;">
+             <h5 style="padding-right: 100px; margin-left: 20px;"><b>PG</b></h5>
+         </div>
+            <div class="col"><img src="img/hostel.png" style="width: 50%;height: 70%; margin-bottom: 15px;"><br>
+             <h5 style="padding-right: 100px;"><b>Hostel</b></h5>
+         </div>
+            <div class="col"><img src="img/flat.png" style="width: 50%;height: 70%;margin-bottom: 15px;">
+             <h5 style="padding-right: 100px;"><b>Flat</b></h5>
+         </div>
+            <div class="col"><img src="img/apartment.png" style="width: 50%;height: 70%; margin-bottom: 15px;">
+             <h5 style="padding-right: 100px;"><b>Apartment</b></h5>
+         </div>
+         <div class="col"><img src="img/house.png" style="width: 50%;height: 70%; margin-bottom: 15px;">
+            <h5 style="padding-right: 100px;"><b>House</b></h5>
+        </div>
+        <div class="col"><img src="img/commercial_bank.png" style="width: 50%;height: 70%; margin-bottom: 15px;">
+            <h5 style="padding-right: 100px;"><b>Commercial Rentals</b></h5>
+        </div>
+        </div>
+        <br>
+        <div class="row" >
+            <div class="col-sm-1"></div>
+            <div class="col"><img src="img/personal_care.png" style="width:50%;height: 70%;margin-bottom: 15px;">
+             <h5 style="padding-right: 100px;"><b>Personal Care</b></h5>
+         </div>
+            <div class="col"><img src="img/home_care.png" style="width: 50%;height: 70%; margin-bottom: 15px;"><br>
+             <h5 style="padding-right: 100px;"><b>Home Care</b></h5>
+         </div>
+            <div class="col"><img src="img/repair.png" style="width: 50%;height: 70%;margin-bottom: 15px;">
+             <h5 style="padding-right: 100px;"><b>Repair & Maintenance</b></h5>
+         </div>
+            <div class="col"><img src="img/edu_smart.png" style="width: 50%;height: 70%; margin-bottom: 15px;">
+             <h5 style="padding-right: 100px;"><b>Edu Smart</b></h5>
+         </div>
+         <div class="col"><img src="img/iListen.png" style="width: 50%;height: 70%; margin-bottom: 15px;">
+            <h5 style="padding-right: 100px;"><b>iListen</b></h5>
+        </div>
+        <div class="col"></div>
+        </div>
+    </div>
+</section><br><br><br>
+<section id="promise">
+    <div class="container-fluid">
+        
+        
+            <div class="container" id="logo">
+
+                <div class="box1" style="border: 7px solid;padding-left: 3px;" ></div>
+                <h1 style="color:black;font-size: 40px;padding-top: 10px;"><b>Our</b></h1>
+
+                <div class="box1 stack-top" style="background:#2ecab6;">
+                <h1 style="color: white; text-align: center;font-size: 40px;padding-top: 10px;"><b>Promise</b></h1>
+                </div>
+            
+            </div>
+<h3>We are not just a Platform,</h3>
+<h3 style="margin-left:380px;color: #2ecab6;">We are Sheltown Family!</h3>
+<h3 style="margin-left:420px; color: #2ecab6;">You are Family to us!</h3>
+<h3>No Need To Pay complete Amount while Booking;</h3>
+<h3>just pay 25% of it as Booking Amount and Pay </h3>
+<h3>the rest while you Move-in.</h3>
+  </div></section>
+  <div class="container" id="Testimonials">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <h2>Testimonials</h2>
+
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+                <div class="img-box"><img src="img/testimonial-1.jpg" alt="img1"></div>
+                <p class="overview"><b>Michael Holz</b>Seo Analyst at <a href="#">OsCorp Tech.</a></p>
+            </div>
+            <div class="carousel-item">
+                <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum idac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+                <div class="img-box"><img src="img/testimonial-4.jpg" alt="img2"></div>
+                <p class="overview"><b>Paula Wilson</b>Media Analyst at <a href="#">SkyNet Inc.</a></p>
+            </div>
+            <div class="carousel-item">
+                <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit.</p>
+                <div class="img-box"><img src="img/testimonial-5.jpg" alt="img3"></div>
+                <p class="overview"><b>Antonio Moreno</b>Web Developer at <a href="#">Circle Ltd.</a></p>
+            </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+        </a>
+    </div>
+</div>
+<!--ONE-->
+<div class="container section-2">
+    <div class="container text-center my-3">
+        <div class="row mx-auto my-auto">
+            <div id="recipeCarousel" class="One carousel slide w-100" data-ride="carousel">
+                <div class="carousel-inner w-100" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="img/offer1.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="img/offer2.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="img/offer3.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="img/offer4.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="img/offer1.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="img/offer2.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="img/offer3.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <script>
+            $('#recipeCarousel').carousel({
+                interval: 10000
+            })
+
+            $('.One.carousel .carousel-item').each(function() {
+                var minPerSlide = 3;
+                var next = $(this).next();
+                if (!next.length) {
+                    next = $(this).siblings(':first');
+                }
+                next.children(':first-child').clone().appendTo($(this));
+
+                for (var i = 0; i < minPerSlide; i++) {
+                    next = next.next();
+                    if (!next.length) {
+                        next = $(this).siblings(':first');
+                    }
+
+                    next.children(':first-child').clone().appendTo($(this));
+                }
+            });
+        </script>
+    </div>
+</div>
+<!-- Why sheltown section -->
+<section id="portfolio">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="portfolio-bg col-sm-5">
+          <div class="overlay_why">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-7">
+          <div class="row_why">
+            <div class="portfolio-cards card-1 col-lg-4">
+              <img src="https://img.icons8.com/dusk/64/000000/guarantee.png" /><br>
+              <p>Safety Guaranteed</p>
+            </div>
+            <div class="portfolio-cards card-2 col-lg-4">
+              <img src="https://img.icons8.com/dusk/64/000000/tax.png" /><br>
+              <p>No Brokerage</p>
+            </div>
+            <div class="portfolio-cards card-3 col-lg-4">
+              <img src="https://img.icons8.com/dusk/64/000000/security-configuration.png" /><br>
+              <p>Ultimate Privacy</p>
+            </div>
+
+          </div>
+          <div class="row_why">
+            <div class="portfolio-cards card-4 col-lg-4">
+              <img src="https://img.icons8.com/dusk/64/000000/company.png" /><br>
+              <p>Good Ambience</p>
+            </div>
+            <div class="portfolio-cards card-5 col-lg-4">
+              <img src="https://img.icons8.com/dusk/64/000000/money-transfer.png" /><br>
+              <p>Affordable</p>
+            </div>
+            <div class="portfolio-cards card-6 col-lg-4">
+              <img src="https://img.icons8.com/dusk/64/000000/rules.png" />
+              <p>Laissez-faire Policy</p>
+            </div>
+
+          </div>
+          <div class="row_why">
+            <div class="portfolio-cards card-7 col-lg-4">
+              <img src="https://img.icons8.com/dusk/64/000000/approval.png" /><br>
+              <p>SheltOwn Verified</p>
+            </div>
+            <div class="portfolio-cards card-8 col-lg-4">
+              <img src="https://img.icons8.com/dusk/64/000000/barbershop.png" /><br>
+              <p>All-in-Home Services</p>
+            </div>
+            <div class="portfolio-cards card-9 col-lg-4">
+              <img src="https://img.icons8.com/dusk/64/000000/solve.png" /><br>
+              <p>Round-the-Clock Assistance</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+ <!-- Our Why SheltOwn? Section-Mobile and Mobile-desktop view -->
+
+<section id="why-sheltown"> 
+    <div class="container">
+        <h2 class="heading heading-background">Why to join this family?</h2>
+        <div class="row">
+            <div class="col-4 col-sm-4">
+                <img src="https://img.icons8.com/dusk/64/000000/guarantee.png" /><br>
+                <p>Safety Guaranteed</p>
+            </div>
+            <div class="col-4 col-sm-4">
+                <img src="https://img.icons8.com/dusk/64/000000/tax.png" /><br>
+                <p>No Brokerage</p>
+            </div>
+            <div class="col-4 col-sm-4">
+                <img src="https://img.icons8.com/dusk/64/000000/security-configuration.png" /><br>
+                <p>Ultimate Privacy</p>
+            </div>
+            <div class="col-4 col-sm-4">
+                <img src="https://img.icons8.com/dusk/64/000000/company.png" /><br>
+                <p>Good Ambience</p>
+            </div>
+            <div class="col-4 col-sm-4">
+                <img src="https://img.icons8.com/dusk/64/000000/money-transfer.png" /><br>
+                <p>Affordable</p>
+            </div>
+            <div class="col-4 col-sm-4">
+                <img src="https://img.icons8.com/dusk/64/000000/rules.png" />
+                <p>Laissez-faire Policy</p>
+            </div>
+            <div class="col-4 col-sm-4">
+                <img src="https://img.icons8.com/dusk/64/000000/approval.png" /><br>
+                <p>SheltOwn Verified</p>
+            </div>
+            <div class="col-4 col-sm-4">
+                <img src="https://img.icons8.com/dusk/64/000000/barbershop.png" /><br>
+                <p>All-in-Home Services</p>
+            </div>
+            <div class="col-4 col-sm-4">
+                <img src="https://img.icons8.com/dusk/64/000000/solve.png" /><br>
+                <p>Round-the-Clock Assistance</p>
+            </div>
+        </div>
+    </div>
+</section>
+    </body>
+</html>
+
+
+
+  
+  
