@@ -11,7 +11,12 @@ body {
   height: 350px;
   width: 100%;
 }
-
+#header #logo img {
+    padding: 0px;
+    margin-left: 20px;
+    width: 33px;
+    height: 33px;
+}
 #ser {
   margin-top: 10px;
 }
